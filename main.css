@@ -10,9 +10,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* min-height: 100vh; */
-    height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+     min-height: 100vh; 
+    
     margin: 0;
     font-family: 'Caveat', cursive;
 }
@@ -21,11 +20,9 @@ body{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    /* width: 500px; */
-     max-width: 100%; 
-    /* width: 50vw; */
-  height: 50vh;
-  height: calc(var(--vh, 1vh) * 70);
+      width: 500px;  
+       max-width: 100%;   
+     
     overflow: hidden;
 }
 
