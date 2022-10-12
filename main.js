@@ -1,3 +1,14 @@
+//!Resizing to fit on mobile websites
+
+const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+  
+//!
+
 const form = document.querySelector("form");
 
 const email= document.querySelector("#E-mail");
